@@ -1,22 +1,19 @@
 package sehun.org.calculator_mvvm.presentation.record
 
-import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import sehun.org.calculator_mvvm.data.Record
 import sehun.org.calculator_mvvm.databinding.FragmentRecordBinding
-import sehun.org.calculator_mvvm.presentation.MainActivity
 
 class RecordFragment : Fragment() {
     private var _binding: FragmentRecordBinding? = null
     private val binding get() = _binding ?: error("Binding이 초기화 되지 않았습니다.")
 
-    private val recordListAdapter: RecordListAdapter by lazy {
-        RecordListAdapter { onRecordClick(it) }
-    }
+    private lateinit var recordListAdapter: RecordListAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -25,6 +22,7 @@ class RecordFragment : Fragment() {
     ): View? {
         _binding = FragmentRecordBinding.inflate(layoutInflater, container, false)
         // Inflate the layout for this fragment
+        recordListAdapter = RecordListAdapter { onRecordClick(it) }
         initAdapter()
         return binding.root
     }
@@ -35,11 +33,12 @@ class RecordFragment : Fragment() {
     }
 
     private fun onRecordClick(record: Record) {
-        val intent = Intent(context, MainActivity::class.java).apply {
-            putExtra("result", record.result)
-        }
-
-        startActivity(intent)
+        Log.d("dd", "dwqqfqhf1335135")
+//        val intent = Intent(context, MainActivity::class.java).apply {
+//            putExtra("result", record.result)
+//        }
+//
+//        startActivity(intent)
     }
 
     companion object AddItemList {

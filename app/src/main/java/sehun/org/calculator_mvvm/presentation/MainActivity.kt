@@ -22,6 +22,6 @@ class MainActivity : AppCompatActivity() {
 
         supportFragmentManager.beginTransaction().add(R.id.fcv_main_torecord, recordFragment)
             .commit()
-    Log.d("ㅇㅇㅇ","ㅇㅇㅇㅇ")
+        Log.d("ㅇㅇㅇ", "ㅇㅇㅇㅇ")
     }
 }

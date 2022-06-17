@@ -2,9 +2,6 @@
 <layout>
 
     <data>
-        <variable
-            name="result"
-            type="String" />
 
         <variable
             name="record"
@@ -24,6 +21,8 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
+            android:text="@{record.expression}"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -34,7 +33,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:text="@{result}"
+            android:text="@{record.result}"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/tv_recorditem_expression"
             app:layout_constraintTop_toTopOf="parent"
