@@ -4,15 +4,15 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import sehun.org.calculator_mvvm.R
-import sehun.org.calculator_mvvm.databinding.ActivityMainBinding
+import sehun.org.calculator_mvvm.databinding.ActivityCalculatorBinding
 import sehun.org.calculator_mvvm.presentation.record.RecordFragment
 
 class CalculatorActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityCalculatorBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityCalculatorBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initFragment()
     }
