@@ -7,7 +7,7 @@ import sehun.org.calculator_mvvm.R
 import sehun.org.calculator_mvvm.databinding.ActivityMainBinding
 import sehun.org.calculator_mvvm.presentation.record.RecordFragment
 
-class MainActivity : AppCompatActivity() {
+class CalculatorActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
