@@ -14,7 +14,7 @@ class RecordListAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
-        val binding = ItemRecordBinding.inflate(layoutInflater)
+        val binding = ItemRecordBinding.inflate(layoutInflater, parent, false)
         return ViewHolder(binding)
     }
 
