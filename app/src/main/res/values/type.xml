@@ -9,6 +9,11 @@
         <item name="fontFamily">@font/pretendard_semibold</item>
     </style>
 
+    <style name="TextAppearance.Num.HeadLine2">
+        <item name="android:textSize">25sp</item>
+        <item name="fontFamily">@font/pretendard_semibold</item>
+    </style>
+
     <style name="TextAppearance.Num.SubTitle1">
         <item name="android:textSize">40sp</item>
         <item name="fontFamily">@font/pretendard_bold</item>
