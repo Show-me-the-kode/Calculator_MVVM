@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.Num" parent="">
+        <item name="fontFamily">@font/pretendard_regular</item>
+    </style>
+
+    <style name="TextAppearance.Num.HeadLine1">
+        <item name="android:textSize">40sp</item>
+        <item name="fontFamily">@font/pretendard_semibold</item>
+    </style>
+
+    <style name="TextAppearance.Num.SubTitle1">
+        <item name="android:textSize">40sp</item>
+        <item name="fontFamily">@font/pretendard_bold</item>
+    </style>
+
+    <style name="TextAppearance.Num.Body1">
+        <item name="android:textSize">30sp</item>
+        <item name="fontFamily">@font/pretendard_medium</item>
+    </style>
+
+
+</resources>
