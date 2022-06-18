@@ -24,6 +24,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="8dp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_minus"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +46,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_blank"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_blank"
@@ -63,7 +64,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_remainder"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_cancel"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_remainder"
@@ -81,7 +82,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_divide"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_blank"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_divide"
@@ -99,7 +100,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_remainder"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_num7"
@@ -117,7 +118,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_num8"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_num8"
@@ -135,7 +136,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_num9"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_num7"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_num9"
@@ -153,7 +154,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_multiple"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_num8"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_multiple"
@@ -171,7 +172,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_num9"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_num4"
@@ -189,7 +190,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_num5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_num5"
@@ -207,7 +208,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_num6"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_num4"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_num6"
@@ -225,7 +226,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_minus"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_num5"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_minus"
@@ -243,7 +244,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_num6"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_num1"
@@ -261,7 +262,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_num2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_num2"
@@ -279,7 +280,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_num3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_num1"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_num3"
@@ -297,7 +298,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_plus"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_num2"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_plus"
@@ -315,7 +316,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_num3"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_sign"
@@ -333,7 +334,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_num0"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_num0"
@@ -351,7 +352,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_dot"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_sign"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_dot"
@@ -369,7 +370,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_calculator_equal"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_num0"
-        tools:text="9" />
+        android:text="9" />
 
     <TextView
         android:id="@+id/tv_calculator_equal"
@@ -387,13 +388,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_calculator_dot"
-        tools:text="9" />
+        android:text="9" />
 
     <ImageView
         android:id="@+id/iv_calculator_delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/iv_calculator_torecord"
@@ -410,21 +411,21 @@
         android:background="@drawable/rectangle_border_2dp_black200"
         android:gravity="end"
         android:paddingStart="10dp"
-        android:paddingTop="35dp"
+        android:paddingTop="40dp"
         android:paddingEnd="15dp"
-        android:paddingBottom="35dp"
-        android:text="TextView"
+        android:paddingBottom="40dp"
         android:textAppearance="@style/TextAppearance.Num.HeadLine2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="5 + 22 = 27" />
 
     <ImageView
         android:id="@+id/iv_calculator_torecord"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="250dp"
         app:layout_constraintEnd_toStartOf="@+id/iv_calculator_delete"
         app:layout_constraintHorizontal_bias="0.5"
