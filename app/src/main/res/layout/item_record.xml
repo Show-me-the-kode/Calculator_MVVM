@@ -12,7 +12,9 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:backgroundTint="@color/black">
 
         <TextView
             android:id="@+id/tv_recorditem_expression"
@@ -22,7 +24,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:text="@{record.expression}"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -34,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:text="@{record.result}"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/tv_recorditem_expression"
             app:layout_constraintTop_toTopOf="parent"
